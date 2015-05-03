@@ -1,4 +1,4 @@
-package org.wintrisstech.sensors;
+package org.jointheleague.iaroc.sensors;
 
 /**************************************************************************
  * Simplified version 140512A by Erik  Super Happy Version
