@@ -45,7 +45,7 @@ public class Lada extends IRobotCreateAdapter {
 	}
 
 	public void initialize() throws ConnectionLostException {
-		dashboard.log("WhiteLiner2014 version 140903B");
+		dashboard.log("iARoC-2015");
 		driveDirect(wheelSpeed, wheelSpeed);
 	}
 
