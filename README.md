@@ -1,6 +1,4 @@
-iAndroid2014
-============
+iARoC 2015
+===========
 
-Roomba version for iARoC 2014
-
-Everything in one repo, including ioioLib
+Android/Roomba example code for [iARoC 2015](http://iaroc.org/).
