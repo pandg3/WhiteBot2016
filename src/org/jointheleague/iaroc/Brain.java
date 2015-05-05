@@ -16,7 +16,7 @@ import java.util.Random;
  * awesome API. It is entirely event driven.
  * @author From the Erik Simplified version 140512A 
  */
-public class Main extends IRobotCreateAdapter {
+public class Brain extends IRobotCreateAdapter {
 	private final Dashboard dashboard;
     Random r = new Random();
 	public UltraSonicSensors sonar;
@@ -34,7 +34,7 @@ public class Main extends IRobotCreateAdapter {
 	private int[] beep2 = {80, 15};
 	private int[] beep3 = {65, 15};
 
-	public Main(IOIO ioio, IRobotCreateInterface create, Dashboard dashboard)
+	public Brain(IOIO ioio, IRobotCreateInterface create, Dashboard dashboard)
 			throws ConnectionLostException {
 		super(create);
 		sonar = new UltraSonicSensors(ioio);

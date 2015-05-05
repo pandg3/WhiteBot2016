@@ -35,7 +35,7 @@ import android.widget.TextView;
  * three sensors.
  * 
  * <p>
- * There should be no need to modify this class. Modify Main instead.
+ * There should be no need to modify this class. Modify Brain instead.
  * 
  * @author Erik Colban
  * 
@@ -49,9 +49,9 @@ public class Dashboard extends IOIOActivity implements
 	private TextView mText;
 	private ScrollView scroller;
 	/**
-	 * A Main instance
+	 * A Brain instance
 	 */
-	private Main kalina;
+	private Brain kalina;
 	/**
 	 * TTS stuff
 	 */
@@ -236,12 +236,12 @@ public class Dashboard extends IOIOActivity implements
 				log(getString(R.string.create_connected));
 
 				/*
-				 * Get a Main (built on the iRobot Create) and let it go... The
+				 * Get a Brain (built on the iRobot Create) and let it go... The
 				 * ioio_ instance is passed to the constructor in case it is
 				 * needed to establish connections to other peripherals, such as
 				 * sensors that are not part of the iRobot Create.
 				 */
-				kalina = new Main(ioio, iRobotCreate, Dashboard.this);
+				kalina = new Brain(ioio, iRobotCreate, Dashboard.this);
 				kalina.initialize();
 			}
 
