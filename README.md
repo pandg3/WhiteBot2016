@@ -1,7 +1,7 @@
-iARoC 2015
+WhiteBot 2016
 ==========
 
-Android/Roomba example code for [iARoC 2015](http://iaroc.org/).
+Android/Roomba example code for [WhiteBot 2016](http://iaroc.org/).
 
 Suggested Tools
 ---------------
